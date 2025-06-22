@@ -7,8 +7,8 @@ lerna-debug.log*
 
 *.tsbuildinfo
 
-dist/*
-!dist/.gitkeep
+client/dist/
+!client/dist/.gitkeep
 build/
 .vite/
 
