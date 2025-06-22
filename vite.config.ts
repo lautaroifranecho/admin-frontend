@@ -18,6 +18,10 @@ export default defineConfig(({ mode }) => {
         "@shared": path.resolve(__dirname, "./shared"),
       },
     },
+    build: {
+      outDir: "dist",
+      emptyOutDir: true,
+    },
     server: {
       proxy: {
         "/api": {
