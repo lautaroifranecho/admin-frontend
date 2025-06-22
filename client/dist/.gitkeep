@@ -1,0 +1,2 @@
+# This file ensures the dist directory is tracked by git
+# The directory is needed for deployment platforms that expect it to exist 
